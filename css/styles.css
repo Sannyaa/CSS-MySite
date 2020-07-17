@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    text-align: center;
+    /*Center align everything w/o a width set*/
+    font-family: 'Merriweather', serif;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #EAF6F6;
+    border-width: 7px;
+    width: 5%;
+    margin: 100px auto 100px auto;
+}
+
+h1 {
+    margin: 50px auto 0 auto;
+    /*Center aligh heading with a width
+    width: 10%;
+    margin: 0 auto 0 auto; 
+    margin: 0 auto;*/
+    font-size: 5.625rem;
+    /*100% = 16px = 1em... 90px/16=562.5%=0.565em.......... setting dynamic font size....... rem=refer to root seetings ignore parent*/
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+.top-container {
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+a {
+    color: #11999E;
+}
+
+.middle-container {
+    margin-top: 50px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.cards-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.cube-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+
+/*.desc {
+    clear: left;
+}*/
+
+.profile-desc {
+    color: #40514E;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.conatct-desc {
+    color: #40514E;
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+    margin-top: 100px;
+}
+
+.btn {
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #b5e1e6), color-stop(1, #2aaebd));
+    background: -moz-linear-gradient( center top, #b5e1e6 5%, #2aaebd 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#b5e1e6', endColorstr='#2aaebd');
+    background-color: #b5e1e6;
+    -webkit-border-top-left-radius: 8px;
+    -moz-border-radius-topleft: 8px;
+    border-top-left-radius: 8px;
+    -webkit-border-top-right-radius: 8px;
+    -moz-border-radius-topright: 8px;
+    border-top-right-radius: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+    -moz-border-radius-bottomright: 8px;
+    border-bottom-right-radius: 8px;
+    -webkit-border-bottom-left-radius: 8px;
+    -moz-border-radius-bottomleft: 8px;
+    border-bottom-left-radius: 8px;
+    text-indent: 0;
+    border: 1px solid #82e6e8;
+    display: inline-block;
+    color: #ffffff;
+    font-family: arial;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: normal;
+    height: 43px;
+    line-height: 43px;
+    width: 138px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn:hover {
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #2aaebd), color-stop(1, #b5e1e6));
+    background: -moz-linear-gradient( center top, #2aaebd 5%, #b5e1e6 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#2aaebd', endColorstr='#b5e1e6');
+    background-color: #2aaebd;
+}
+
+.btn:active {
+    position: relative;
+    top: 1px;
+}
+
+.footer-link {
+    margin: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #EAF6F6;
+}
+
+.name {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding-top: 20px 0;
+}
